@@ -362,14 +362,14 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',  # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
         'NAME': SQLITE3_DB_PATH,
     },
-    'mongodb': {
-        'ENGINE': 'django_mongokit.mongodb',
-        'NAME': 'studio-dev',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': '',
-    },
+#    'mongodb': {
+#        'ENGINE': 'django_mongokit.mongodb',
+#        'NAME': 'studio-dev',
+#        'USER': '',
+#        'PASSWORD': '',
+#        'HOST': '',
+#        'PORT': '',
+#    },
 }
 
 # Local time zone for this installation. Choices can be found here:
