@@ -22,9 +22,9 @@ from django.http import HttpRequest
 from django.template.defaultfilters import slugify
 from django.core.cache import cache
 
-from django_mongokit import connection
-from django_mongokit import get_database
-from django_mongokit.document import DjangoDocument
+#from django_mongokit import connection
+#from django_mongokit import get_database
+#from django_mongokit.document import DjangoDocument
 from django.core.files.images import get_image_dimensions
 
 # from mongoengine import connection
