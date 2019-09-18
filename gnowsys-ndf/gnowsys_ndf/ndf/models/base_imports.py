@@ -155,4 +155,4 @@ gfs = HashFS(MEDIA_ROOT, depth=3, width=1, algorithm='sha256')
 # gfs: gstudio file system
 
 # DATABASE Variables
-db = get_database()
+#db = get_database()
