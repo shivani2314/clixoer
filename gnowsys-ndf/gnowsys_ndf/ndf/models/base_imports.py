@@ -40,7 +40,7 @@ try:
 except ImportError:  # old pymongo
     from pymongo.objectid import ObjectId
 
-from registration.signals import user_registered
+#from registration.signals import user_registered
 
 # imports from application folders/files
 from gnowsys_ndf.settings import RCS_REPO_DIR, MEDIA_ROOT
