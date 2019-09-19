@@ -23,7 +23,7 @@ class MemcachedAdmin(admin.ModelAdmin):
             url(r'^slabs/(?P<server_name>.+)$', self.admin_site.admin_view(views.slabs), name='mc_slabs'),
             url(r'^server_status/$', self.admin_site.admin_view(views.server_status), name='mc_server_status'),
         ]
-       return urlpatterns + urls
+        return urlpatterns + urls
 
 
 admin.site.register(Dashboard, MemcachedAdmin)
